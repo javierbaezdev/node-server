@@ -1,6 +1,7 @@
 //@imports
 const express = require('express');
 const cors = require('cors');
+require('dotenv').config();
 
 //@routes
 const routesV1 = require('./app/V1/routes');
